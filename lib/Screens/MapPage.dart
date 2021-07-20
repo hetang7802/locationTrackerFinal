@@ -106,8 +106,8 @@ class _myMapPageState extends State<myMapPage> {
                   width: 200,
                   child: Slider(
                     min : 1,
-                    max: 1000,
-                    divisions: 200,
+                    max: 5000,
+                    divisions: 1000,
                     value: radius.value,
                     //value: _value,
                     label: 'Radius ${radius.value}km',

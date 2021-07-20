@@ -166,7 +166,7 @@ class _AddMembersPageState extends State<AddMembersPage> {
                     onPressed: (){
                       FirebaseFirestore.instance.collection("groupsData").doc(widget.groupName).update({'members': widget.Members});
                       Navigator.push(context, MaterialPageRoute(
-                          builder: (context)=>myMapPage()));
+                          builder: (context)=>myMapPage(groupName: widget.groupName,groupMembers: widget.Members,)));
                     },
                   )
                 ],

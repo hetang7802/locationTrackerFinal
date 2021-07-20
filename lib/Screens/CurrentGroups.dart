@@ -106,6 +106,7 @@ class _CurrentGroupsPageState extends State<CurrentGroupsPage> {
                        },
                        child: Icon(Icons.add,size: 34,color: Colors.grey[700],),
                     ),
+                   Text("   "),
                  ],
                ),
              ),
